@@ -1,4 +1,5 @@
 <template>
+
  <div id="option-bar">
    <select id="select" v-on:change='handleSelected' v-model="selectedMunro">
      <option disabled value="">Select munro</option>

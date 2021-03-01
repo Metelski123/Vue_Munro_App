@@ -5,9 +5,9 @@
     </div>
     <div v-if="munro" class="munros">
       <h3>Name: {{munro.name}}</h3>
-      <p> Height: {{munro.abv}}</p>
-      <p> Description: {{munro.description}}</p>
-      <img class="image" v-bind:src="munro.image_url">
+      <p> Height: {{munro.height}}</p>
+      <p> Region: {{munro.region}}</p>
+      <!-- <img class="image" v-bind:src="munro.image_url"> -->
     </div>
   </div>
 </template>
